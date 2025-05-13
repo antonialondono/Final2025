@@ -7,7 +7,7 @@ from datetime import datetime
 # Configuración de página mejorada
 st.set_page_config(
     page_title="Análisis de Sensores - el Jardín de Inés",
-    page_icon="📊",
+    page_icon="🌷",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
@@ -116,7 +116,7 @@ Ines_location = pd.DataFrame({
 })
 
 # Mostrar mapa con estilo mejorado
-st.subheader("📍 Ubicación de los Sensores")
+st.subheader("🌿 Ubicación de los Sensores")
 st.map(Ines_location, zoom=15)
 
 # Cargador de archivos
