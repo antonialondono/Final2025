@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'About': "Aplicación para análisis de datos de sensores ESP32"
+        'About': "Aplicación para análisis de datos de sensores ESP32 en el jardín de Inés"
     }
 )
 
@@ -108,10 +108,10 @@ with st.sidebar:
     st.markdown("**Configuración general**")
     st.info("Seleccione un archivo CSV para comenzar el análisis")
 
-# Crear datos de mapa para EAFIT
+# Crear datos de mapa para el jardín de Inés
 Ines_location = pd.DataFrame({
-    'lat': [6.2006],
-    'lon': [-75.5783],
+    'lat': [6.184130164156612],
+    'lon': [-75.57353496556173],
     'location': ['Jardín Inés']
 })
 
