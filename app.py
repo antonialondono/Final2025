@@ -6,12 +6,12 @@ from datetime import datetime
 
 # Configuración de página mejorada
 st.set_page_config(
-    page_title="Análisis de Sensores - el Jardín de Inés",
+    page_title="🌼🌸🌷Análisis de Sensores - el Jardín de Inés🌷🌸🌼",
     page_icon="🌷",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'About': "🌼🌸🌷Aplicación para análisis de datos de sensores ESP32 en el jardín de Inés🌷🌸🌼"
+        'About': "Aplicación para análisis de datos de sensores ESP32 en el jardín de Inés"
     }
 )
 
