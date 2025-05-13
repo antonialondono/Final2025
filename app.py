@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Configuración de página mejorada
 st.set_page_config(
-    page_title="🌼🌸🌷Análisis de Sensores - el Jardín de Inés🌷🌸🌼",
+    page_title="Análisis de Sensores - el Jardín de Inés",
     page_icon="🌷",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -95,8 +95,8 @@ st.markdown("""
 st.title('Análisis de Datos de Sensores en el Jardín de Inés')
 st.markdown("""
     <div style="background-color:#1c097a; padding:1rem; border-radius:8px; margin-bottom:1.5rem;">
-    Esta aplicación permite analizar datos de temperatura y humedad
-    recolectados por sensores ESP32 en el jardín de Inés.
+    🌼🌸🌷Esta aplicación permite analizar datos de temperatura y humedad
+    recolectados por sensores ESP32 en el jardín de Inés🌷🌸🌼.
     </div>
 """, unsafe_allow_html=True)
 
