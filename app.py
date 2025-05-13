@@ -36,11 +36,11 @@ st.markdown("""
     }
     
     .st-b7 {
-        background-color: #3498db !important;
+        background-color: #b92987 !important;
     }
     
     .st-c0 {
-        background-color: #2980b9 !important;
+        background-color: #b92987 !important;
     }
     
     .stButton>button {
