@@ -94,7 +94,7 @@ st.markdown("""
 # Encabezado con logo y título
 st.title('Análisis de Datos de Sensores en el Jardín de Inés')
 st.markdown("""
-    <div style="background-color:#1c097a; padding:1rem; border-radius:8px; margin-bottom:1.5rem;">
+    <div style="background-color:#7a0956; padding:1rem; border-radius:8px; margin-bottom:1.5rem;">
     🌼🌸🌷Esta aplicación permite analizar datos de temperatura y humedad
     recolectados por sensores ESP32 en el jardín de Inés🌷🌸🌼.
     </div>
