@@ -299,7 +299,7 @@ if uploaded_file is not None:
                       * Temperatura (°C)  
                       * Humedad (%)  
                     - **Frecuencia de medición:** Según configuración  
-                    - **Ubicación:** Campus universitario  
+                    - **Ubicación:** Jardín de Inés  
                     - **Precisión:**  
                       * Temperatura: ±0.5°C  
                       * Humedad: ±2%  
