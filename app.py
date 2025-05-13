@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'About': "Aplicación para análisis de datos de sensores ESP32 en el jardín de Inés"
+        'About': "🌼🌸🌷Aplicación para análisis de datos de sensores ESP32 en el jardín de Inés🌷🌸🌼"
     }
 )
 
