@@ -96,7 +96,7 @@ st.title('Análisis de Datos de Sensores en el Jardín de Inés')
 st.markdown("""
     <div style="background-color:#1c097a; padding:1rem; border-radius:8px; margin-bottom:1.5rem;">
     Esta aplicación permite analizar datos de temperatura y humedad
-    recolectados por sensores ESP32 en diferentes puntos de la ciudad.
+    recolectados por sensores ESP32 en el jardín de Inés.
     </div>
 """, unsafe_allow_html=True)
 
@@ -110,8 +110,8 @@ with st.sidebar:
 
 # Crear datos de mapa para el jardín de Inés
 Ines_location = pd.DataFrame({
-    'lat': [6.184130164156612],
-    'lon': [-75.57353496556173],
+    'lat': [6.1841],
+    'lon': [-75.5735],
     'location': ['Jardín Inés']
 })
 
