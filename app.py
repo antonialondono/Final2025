@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Configuración de página mejorada
 st.set_page_config(
-    page_title="Análisis de Sensores - Mi Ciudad",
+    page_title="Análisis de Sensores - el Jardín de Inés",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -92,7 +92,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Encabezado con logo y título
-st.title('📊 Análisis de Datos de Sensores en Mi Ciudad')
+st.title('Análisis de Datos de Sensores en el Jardín de Inés')
 st.markdown("""
     <div style="background-color:#1c097a; padding:1rem; border-radius:8px; margin-bottom:1.5rem;">
     Esta aplicación permite analizar datos de temperatura y humedad
@@ -109,15 +109,15 @@ with st.sidebar:
     st.info("Seleccione un archivo CSV para comenzar el análisis")
 
 # Crear datos de mapa para EAFIT
-eafit_location = pd.DataFrame({
+Ines_location = pd.DataFrame({
     'lat': [6.2006],
     'lon': [-75.5783],
-    'location': ['Universidad EAFIT']
+    'location': ['Jardín Inés']
 })
 
 # Mostrar mapa con estilo mejorado
 st.subheader("📍 Ubicación de los Sensores")
-st.map(eafit_location, zoom=15)
+st.map(Ines_location, zoom=15)
 
 # Cargador de archivos
 uploaded_file = st.file_uploader('Seleccione archivo CSV', type=['csv'], help="Suba un archivo CSV con datos de sensores")
@@ -284,12 +284,12 @@ if uploaded_file is not None:
             with col1:
                 st.markdown("#### 📍 Ubicación del Sensor")
                 st.markdown("""
-                    **Universidad EAFIT**  
-                    - Latitud: 6.2006  
-                    - Longitud: -75.5783  
+                    **JARDÍN INÉS**  
+                    - Latitud: 6.184088664381937
+                    - Longitud: -75.57354252476965 
                     - Altitud: ~1,495 metros sobre el nivel del mar  
                 """)
-                st.map(eafit_location, zoom=15)
+                st.map(Ines_location, zoom=15)
             
             with col2:
                 st.markdown("#### 🔧 Detalles del Sensor")
